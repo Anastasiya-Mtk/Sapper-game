@@ -1,0 +1,50 @@
+.hidden-cell {
+    color: transparent;
+    background-color: transparent;
+    border: 1px solid black;
+}
+body{
+    user-select: none;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+.grid{
+    margin: 0 auto;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  table td, table th {
+    text-align: center;
+  }
+#game_over{
+    text-align: center;
+    font-size: 30px;
+}
+table { border-collapse: collapse;
+    border-style: outset;
+    background-color: rgba(128, 128, 128, 0.231); }
+td {
+    width: 30px;
+    height: 30px; 
+    border: 5px solid rgba(128, 128, 128, 0.708);
+    border-style: outset; 
+} 
+tr{ width: 30px; 
+    height: 30px; 
+    border: 5px solid  rgba(128, 128, 128, 0.708);
+    border-style: outset;
+}
+  #button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #Restart{
+    cursor: pointer;
+  }
